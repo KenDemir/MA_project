@@ -32,7 +32,7 @@ unsigned long current_time = 0;
 int ypos = 10;
 
 bool deviceFound = false;
-const char* targetDeviceName = "XY-060"; // Replace with your target device name
+const char* targetDeviceName = "HUAWEI C51"; // Replace with your target device name
 String device_list[10];
 int found_device_number = 0;
 void btAdvertisedDeviceFound(BTAdvertisedDevice* pDevice) {
